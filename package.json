@@ -1,0 +1,31 @@
+{
+  "name": "store-prod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --watch",
+    "prod": "cross-env NODE_ENV=production webpack --progress --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FelixFreitasJr/adapitando-template.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FelixFreitasJr/adapitando-template/issues"
+  },
+  "homepage": "https://github.com/FelixFreitasJr/adapitando-template#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.10.5",
+    "@babel/core": "^7.11.1",
+    "@babel/preset-env": "^7.11.0",
+    "babel-loader": "^8.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^8.50.0",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
